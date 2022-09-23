@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+.switch{
+    position: relative;
+    float: left;
+}
+#body{
+    background-image: linear-gradient(#00ff9d,#bb00ff);
+}
+#main{
+    position: relative;
+    width: 600px;
+    height: 900px;
+    background-image: linear-gradient(skyblue,lightgreen);
+    left: 35%;
+    border-radius: 30px;
+}
+#display{
+    position: relative;
+    width: 96%;
+    height: 15%;
+    top: 6%;
+    left: 2%;
+    background-color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: right;
+    padding: 30px;
+    border-radius: 20px;
+}
+#one{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 90px;
+    left: 2%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#two{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 90px;
+    left: 10%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#three{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 90px;
+    left: 20%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#add{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 90px;
+    left: 30%;
+    background-image: linear-gradient(#ffffff, #00fffb);
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#four{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    left: 2%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#five{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    left:  10%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#six{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    left:   20%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#sub{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    left:   30%;
+    background-image: linear-gradient(#ffffff, #00fffb);
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#seven{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 210px;
+    left: 2%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#eight{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 210px;
+    left:  10%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#nine{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 210px;
+    left:   20%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#mul{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 210px;
+    left:   30%;
+    background-image: linear-gradient(#ffffff, #00fffb);
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#zero{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 270px;
+    left: 2%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#singleclear{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 270px;
+    left:  10%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#clear{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 270px;
+    left:   20%;
+    background-image: linear-gradient(#00ff00, #0000ff);
+    border-radius: 20px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#div{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 270px;
+    left:   30%;
+    background-image: linear-gradient(#ffffff, #00fffb);
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#ans{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 310px;
+    background-image: linear-gradient(#ffffff, #00fffb);
+    width: 90%;
+    left: -8%;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/*  */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    /* float: left; */
+    top: -484px;
+    left: 87%;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  body.dark{
+    background-color: white;
+  }
