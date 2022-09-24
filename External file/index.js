@@ -39,6 +39,10 @@ function zerofun() {
     var insert = document.getElementById("display").value
     document.getElementById("display").value = insert + "0"
 }
+function dotfun() {
+    var insert = document.getElementById("display").value
+    document.getElementById("display").value = insert + "."
+}
 function clearfun() {
     document.getElementById("display").value = null
 }
@@ -145,10 +149,11 @@ change.addEventListener('click',() =>
     if (check == null) {
         document.getElementById("main").style.backgroundImage="linear-gradient(skyblue,lightgreen)"
         document.getElementById("body").style.backgroundImage="linear-gradient(#00ff9d,#bb00ff)"
+        document.getElementById("body").style.color="black"
     }
     else{
         document.getElementById("main").style.backgroundImage="linear-gradient(rgb(4, 68, 94),rgb(5, 99, 5))"
         document.getElementById("body").style.backgroundImage="linear-gradient(#005837,#3d0053)"
-
+        document.getElementById("body").style.color="white"
     }
 })

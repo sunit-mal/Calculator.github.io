@@ -6,6 +6,7 @@
 }
 #body{
     background-image: linear-gradient(#00ff9d,#bb00ff);
+    background-clip: url(./Particles_7___48s___4k_res.mp4);
 }
 #main{
     position: relative;
@@ -21,7 +22,9 @@
     height: 15%;
     top: 6%;
     left: 2%;
-    background-color: aqua;
+    background-image: linear-gradient(#fdebf4, #34fffc);
+    border: 0px solid white;
+    box-shadow: 2px 2px #ffe601, -2px -2px #d10270;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -35,9 +38,10 @@
     height: 90px;
     top: 90px;
     left: 2%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    background-image: linear-gradient(#f2f989, #6969fe);
+    border: 0px solid white;
     border-radius: 20px;
-    color: azure;
+    color: #000000;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -48,9 +52,10 @@
     height: 90px;
     top: 90px;
     left: 10%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -61,9 +66,10 @@
     height: 90px;
     top: 90px;
     left: 20%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -74,6 +80,7 @@
     height: 90px;
     top: 90px;
     left: 30%;
+    border: 0px solid white;
     background-image: linear-gradient(#ffffff, #00fffb);
     border-radius: 20px;
     font-size: 40px;
@@ -86,9 +93,10 @@
     height: 90px;
     top: 150px;
     left: 2%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -99,9 +107,10 @@
     height: 90px;
     top: 150px;
     left:  10%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -112,9 +121,10 @@
     height: 90px;
     top: 150px;
     left:   20%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -125,6 +135,7 @@
     height: 90px;
     top: 150px;
     left:   30%;
+    border: 0px solid white;
     background-image: linear-gradient(#ffffff, #00fffb);
     border-radius: 20px;
     font-size: 40px;
@@ -137,9 +148,10 @@
     height: 90px;
     top: 210px;
     left: 2%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -150,9 +162,10 @@
     height: 90px;
     top: 210px;
     left:  10%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -163,9 +176,10 @@
     height: 90px;
     top: 210px;
     left:   20%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -176,6 +190,7 @@
     height: 90px;
     top: 210px;
     left:   30%;
+    border: 0px solid white;
     background-image: linear-gradient(#ffffff, #00fffb);
     border-radius: 20px;
     font-size: 40px;
@@ -188,9 +203,24 @@
     height: 90px;
     top: 270px;
     left: 2%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#dot{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 270px;
+    left:  10%;
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
+    border-radius: 20px;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -200,23 +230,12 @@
     width: 90px;
     height: 90px;
     top: 270px;
-    left:  10%;
-    background-image: linear-gradient(#00ff00, #0000ff);
-    border-radius: 20px;
-    color: azure;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Baloo Bhai 2', cursive;
-}
-#clear{
-    position: relative;
-    width: 90px;
-    height: 90px;
-    top: 270px;
     left:   20%;
-    background-image: linear-gradient(#00ff00, #0000ff);
+    border: 0px solid white;
+    background-image: linear-gradient(#f2f989, #6969fe);
     border-radius: 20px;
-    color: azure;
+    box-shadow: 1px 1px red,-1px -1px blue;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -227,6 +246,7 @@
     height: 90px;
     top: 270px;
     left:   30%;
+    border: 0px solid white;
     background-image: linear-gradient(#ffffff, #00fffb);
     border-radius: 20px;
     font-size: 40px;
@@ -238,10 +258,25 @@
     width: 90px;
     height: 90px;
     top: 310px;
+    border: 0px solid white;
     background-image: linear-gradient(#ffffff, #00fffb);
-    width: 90%;
-    left: -8%;
+    width: 65%;
+    left: 2%;
     border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#clear{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 310px;
+    left:   11%;
+    border: 0px solid white;
+    background-image: linear-gradient(#80fe77, #fba2d3);
+    border-radius: 20px;
+    box-shadow: 1px 1px red,-1px -1px blue;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Baloo Bhai 2', cursive;
@@ -254,7 +289,7 @@
     width: 60px;
     height: 34px;
     /* float: left; */
-    top: -484px;
+    top: -574px;
     left: 87%;
   }
 
@@ -315,4 +350,16 @@
 
   body.dark{
     background-color: white;
+  }
+
+  /*  */
+
+  #massage{
+    position: relative;
+    font-size: 40px;
+    top:-60%;
+    left: 2%;
+    float: left;
+    font-family:'Baloo Bhai 2', cursive ;
+    font-weight: bold;
   }
