@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculatorBySunit</title>
+    <link rel="stylesheet" href="./External/ModifiCalculator.css">
+    <link rel="shortcut icon" href="./External/myPhoto.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="purple test"></div>
+    <div class="medium-blue test"></div>
+    <div class="light-blue test"></div>
+    <div class="red test"></div>
+    <div class="orange test"></div>
+    <div class="yellow test"></div>
+    <div class="cyan test"></div>
+    <div class="light-green test"></div>
+    <div class="lime test"></div>
+    <div class="magenta test"></div>
+    <div class="lightish-red test"></div>
+    <div class="pink test"></div>
+
+    <div id="main">
+        <input type="text" placeholder="0" id="display">
+        <div id="firstrow">
+            <button id="one" onclick="onefun()">1</button>
+            <button id="two" onclick="twofun()">2</button>
+            <button id="three" onclick="threefun()">3</button>
+            <button id="add" onclick="addfun()">+</button>
+        </div>
+        <div id="secondrow">
+            <button id="four" onclick="fourfun()">4</button>
+            <button id="five" onclick="fivefun()">5</button>
+            <button id="six" onclick="sixfun()">6</button>
+            <button id="sub" onclick="subfun()">-</button>
+        </div>
+        <div id="thirdrow">
+            <button id="seven" onclick="sevenfun()">7</button>
+            <button id="eight" onclick="eightfun()">8</button>
+            <button id="nine" onclick="ninefun()">9</button>
+            <button id="mul" onclick="mulfun()">x</button>
+        </div>
+        <div id="forthrow">
+            <button id="zero" onclick="zerofun()">0</button>
+            <button id="dot" onclick="dotfun()">.</button>
+            <button id="singleclear" onclick="singleclear()"><--</button>
+            <button id="div" onclick="divfun()">/</button>
+        </div>
+        <div id="fiverow">
+            <button id="ans" onclick="ans()">=</button>
+            <button id="clear" onclick="clearfun()">C</button>
+        </div>
+    </div>
+</body>
+<script src="./External/ModifiCalculator.js"></script>
+</html>
